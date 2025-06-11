@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class Funciones {
     //Clase que voy a utilizar para Funciones Basicas
@@ -20,6 +20,18 @@ public class Funciones {
         Mayuscula(mensaje);
         System.out.println(Mayuscula(mensaje));
         Menu();
+
+        int n = 4;
+        FuncionesL.adivinadorpar(n);
+
+        int numeros = 8;
+        int cuadrado = FuncionesL.cuadrado(numeros);
+        System.out.println("El cuadrado de su numero es: " + cuadrado);
+
+        int factor = 13;
+        long respuesta = FuncionesL.factorial(factor);
+        System.out.println("Mi estimado, su factorial es de: " + respuesta); 
+
     }
 
     //Metodo de saludo simple
@@ -52,6 +64,7 @@ public class Funciones {
     }
 
 }
+
 
 
 
