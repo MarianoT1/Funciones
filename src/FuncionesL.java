@@ -1,3 +1,5 @@
+//Clase para las Funciones Logicas
+
 public class FuncionesL extends Funciones{
 
     //Metodo para saber si es par el numero
@@ -10,10 +12,12 @@ public class FuncionesL extends Funciones{
         }
     }
 
+    //Metodo para el saber el cuadrado de un numero
     public static int cuadrado(int numero){
      return numero * numero;
     }
 
+    //Metodo para el factorial, no tengo que es un factorial. No le digan a Luis que dije eso
     public static long factorial (int factor){
        if (factor <1 ) {
            return 1;
