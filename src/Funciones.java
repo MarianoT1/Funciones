@@ -55,10 +55,24 @@ public class Funciones {
             System.out.println(numeroquequiero + ": No sale, creo que sos ciego");
         }
 
+        System.out.println("");
         String [] nombres = {"Mariano", "Mariano", "Mariano", "Juan", "Fran", "Messi", "Ronaldo", "Ariel"};
         String palabraclave= "Mariano";
         int recuento = FuncionesA.palabra(nombres, palabraclave);
         System.out.println("La palabra: " + palabraclave + " sale un total de " + recuento + " veces");
+        System.out.println("");
+
+        int [] valores = {1, 2, 3, 4, 5, 6};
+        int [] corchete= FuncionesC.listacorchete(valores);
+        System.out.println("");
+
+        int [] vuelta = FuncionesC.darvuelta(valores);
+        System.out.println("");
+
+        int [] notas = {1, 6, 10, 9, 9};
+        String [] alumno = {"Juan", "Perez", "Toledo", "Flores", "Gabi"};
+        String notasxalumno = FuncionesC.mejor(alumno, notas);
+
     }
 
     //Metodo de saludo simple
